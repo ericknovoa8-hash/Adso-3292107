@@ -7,10 +7,13 @@ var opcion = prompt("Ingrese su opcion");
 
 
 
+
     if (opcion == "1") {
         var resultado = num1 + num2;
     }else if (opcion == "2") {
         var resultado = num1 * num2;
+    }else {
+        console.log("Opción no válida");
     }
 
 
